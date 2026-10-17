@@ -97,7 +97,7 @@ function App() {
 
       <main className="shop-layout" id="home">
         <section className="product-grid" id="categories">
-          {products.slice(0, 2).map((product) => (
+          {products.map((product) => (
             <div className="product-card" key={product.id}>
               <img
                 src={product.image}
