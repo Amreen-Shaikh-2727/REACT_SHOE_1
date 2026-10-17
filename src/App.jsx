@@ -42,10 +42,10 @@ const products = [
 
 function App() {
   const [cart, setCart] = useState([
-    { ...products[1], quantity: 1 },
-    { ...products[2], quantity: 1 },
-    { ...products[3], quantity: 4 },
-    { ...products[4], quantity: 3 },
+    // { ...products[1], quantity: 1 },
+    // { ...products[2], quantity: 1 },
+    // { ...products[3], quantity: 4 },
+    // { ...products[4], quantity: 3 },
   ]);
 
   function addToCart(product) {
